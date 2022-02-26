@@ -130,7 +130,6 @@ est_param_oca_inner_criteria_lincase_par_version <- function(seq_argument){
       
       mat_Rk = mat_Rk_m1
       vect_Hk = vect_Hk_m1
-      
       History_R = append(list(mat_Rk),History_R)
       History_H = append(list(vect_Hk),History_H)
     }
