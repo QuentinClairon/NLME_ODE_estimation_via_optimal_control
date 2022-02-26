@@ -99,7 +99,6 @@ est_param_oca_variance_estimation_prof_par_version <- function(Times_integ_set,p
     est_pop_parameter_only= seq_arg[[14]]
     delta_known= seq_arg[[15]]
    
-    
     nb_bm_cur = length(param_sub_est_cur)
     
     nb_param_tot_cur = length(param_tot_cur)
