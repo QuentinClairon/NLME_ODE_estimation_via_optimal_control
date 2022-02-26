@@ -27,7 +27,6 @@ delta_L = list_Obs_subjects[[1]][[1]][[3]][[2]]
 
 #########  Specification of the population parameter value (theta and delta)
 
-
 #theta, sigma and delta specification
 x0_mean <- c( 479.0007)
 sd_x0 = log(258)
