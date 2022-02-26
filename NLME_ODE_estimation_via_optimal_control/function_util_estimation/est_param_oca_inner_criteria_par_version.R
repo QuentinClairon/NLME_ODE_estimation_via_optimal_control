@@ -149,8 +149,6 @@ est_param_oca_inner_criteria_par_version <- function(arg_sequence){
           }
         
         }
-
-      
       
       if (nb_iter  > 40){
         stop_criteria = 1;
