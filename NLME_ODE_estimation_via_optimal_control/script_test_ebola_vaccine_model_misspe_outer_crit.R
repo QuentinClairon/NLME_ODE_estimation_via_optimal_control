@@ -26,7 +26,6 @@ coeff_mult = list_Obs_subjects[[1]][[1]][[3]][[3]]
 
 #########  Specification of the population parameter value (theta and delta) as first guess for the outer criteria optimization algorithm
 
-
 #theta, sigma and delta specification
 x0_mean <- c( 479.0007)
 sd_x0 = log(258)
