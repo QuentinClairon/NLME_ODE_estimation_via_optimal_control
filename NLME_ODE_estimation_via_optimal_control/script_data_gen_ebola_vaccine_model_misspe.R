@@ -29,7 +29,6 @@ rep_file_trajectory = paste('true_trajectory_ebola_vaccine_model_misspe_pop_',nb
 
 ######### Parameter value specification
 
-
 #theta, sigma and delta specification
 x0_mean <- c( 479.0007)
 sd_x0 = log(258)
