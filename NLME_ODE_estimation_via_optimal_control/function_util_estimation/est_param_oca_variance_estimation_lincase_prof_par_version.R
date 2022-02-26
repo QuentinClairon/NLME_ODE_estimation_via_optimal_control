@@ -97,7 +97,6 @@ est_param_oca_variance_estimation_lincase_prof_par_version<- function(Times_inte
     est_pop_parameter_only= seq_arg[[13]]
     delta_known= seq_arg[[14]]
     
-    
     nb_bm_cur = length(param_sub_est_cur)
     
     nb_param_tot_cur = length(param_tot_cur)
