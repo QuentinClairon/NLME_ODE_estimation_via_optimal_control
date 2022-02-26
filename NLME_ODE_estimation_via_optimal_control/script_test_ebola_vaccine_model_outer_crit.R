@@ -23,7 +23,6 @@ delta_S_estimation = 0
 # specification of scaling parameter 
 coeff_mult = list_Obs_subjects[[1]][[1]][[3]][[3]]
 
-
 #########  Specification of the population parameter value (theta and delta) as first guess for the outer criteria optimization algorithm
 
 
