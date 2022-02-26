@@ -1,6 +1,5 @@
 Ebola_Vaccine_model_vectR<- function(t,param_sub,param_pop,exo_par)
 {
-  
   log_delta_L = exo_par[[2]]
   coeff_mult  = exo_par[[3]]
   
