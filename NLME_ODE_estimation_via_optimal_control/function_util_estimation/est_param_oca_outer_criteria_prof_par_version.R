@@ -117,8 +117,7 @@ est_param_oca_outer_criteria_prof_par_version <- function(Subject_data,State_ini
       refined_interval_i_s[length( refined_interval_i_s)] = Times_obs_s[obs_i+1]
       Times_integ_s[seq(mesh_iter*(obs_i-1)+1,(mesh_iter*obs_i+1),by =1)] = refined_interval_i_s
       
-      weight_integ_snd_s[mesh_iter*(obs_i-1)+1] =  1/(refined_interval_i_s[2]-Times_obs_s[obs_i])
-      
+      weight_integ_snd_s[mesh_iter*(obs_i-1)+1] =  1/(refined_interval_i_s[2]-Times_obs_s[obs_i]) 
       
       pseudo_Y_s[,mesh_iter*(obs_i-1)+1]= Yn_s[,obs_i]
       pseudo_Y_s[,mesh_iter*obs_i+1] = Yn_s[,obs_i+1]
