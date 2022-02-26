@@ -1,7 +1,6 @@
 Ebola_vaccine_model_pert_sim <- function(deb,h,fin,Pars,y0,sd_stoch_pert){
     Times_obs = seq(deb,fin, by=h) 
   nb_obs = length(Times_obs)
-  
   dim_syst =  1
   
   Res_sim = matrix(rep(0,dim_syst*nb_obs),dim_syst,nb_obs)
