@@ -1,6 +1,5 @@
 Ebola_Vaccine_model_matA<- function(t,param_sub,param_pop,exo_par)
 {
-  
   # coeff_mult  = exo_par[[3]]
   delta_Ab = exp(param_pop[4]  +param_sub[3])
   
