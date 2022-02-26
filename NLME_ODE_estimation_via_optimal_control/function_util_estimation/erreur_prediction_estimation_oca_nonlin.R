@@ -90,6 +90,5 @@ erreur_prediction_estimation_oca <- function(Times_integ_set,pseudo_Y_set,pseudo
   
   
   
-  
   return(error_pred)
 }
