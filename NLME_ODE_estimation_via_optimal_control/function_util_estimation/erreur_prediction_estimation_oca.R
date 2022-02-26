@@ -87,7 +87,6 @@ erreur_prediction_estimation_oca_lincase <- function(Times_integ_set,pseudo_Y_se
     }
 
 
-
   
   return(error_pred)
 }
