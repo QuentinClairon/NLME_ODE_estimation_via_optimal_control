@@ -92,8 +92,7 @@ est_param_oca_outer_criteria_lincase_prof_par_version <- function(Subject_data,p
   pseudo_Y_set  = list()
   param_exogen_set = list()
   nb_obs_tot = 0
-  
-  
+   
   for (nbs in 1:nb_subject){
     
     Times_obs_s =Subject_data[[nbs]][[1]]
