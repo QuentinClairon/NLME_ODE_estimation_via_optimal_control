@@ -20,7 +20,6 @@ load(paste('data_gen_ebola_vaccine_model_pop',nb_subject,'.Rdata',sep=""))
 # specification of scaling parameter 
 coeff_mult = list_Obs_subjects[[1]][[1]][[3]][[3]]
 
-
 #exogenous paramter specification
 delta_S=  list_Obs_subjects[[1]][[1]][[3]][[1]]
 delta_L = list_Obs_subjects[[1]][[1]][[3]][[2]]
