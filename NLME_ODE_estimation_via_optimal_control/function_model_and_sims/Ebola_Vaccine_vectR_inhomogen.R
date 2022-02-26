@@ -1,6 +1,5 @@
 Ebola_Vaccine_model_vectR_inhomogen<- function(t,param_sub,param_pop,exo_par)
 {
-  
   log_delta_S = exo_par[[1]]
   log_delta_L = exo_par[[2]]
   coeff_mult  = exo_par[[3]]
